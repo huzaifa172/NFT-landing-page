@@ -1,0 +1,378 @@
+@import "tailwindcss";
+#root{
+  background-color: #0F0E0E;
+}
+.hero-sec{
+  background-color: #0F0E0E;
+  background-image: url(../public/Ellipse\ 1.png);
+  background-repeat: repeat-y;
+  background-position: right;
+  padding-bottom: 100px;
+} 
+
+.icon-div{
+  background-image: url(../public/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  fill: #0E0511;
+  /* box-shadow: 0px -1px 1px 0px rgba(229, 228, 228, 0.49) inset; */
+
+
+}
+
+.main-sec{
+  /* width: 756px; */
+  border-radius: 25px 25px 0px 0px;
+  background: rgba(217, 217, 217, 0.08);
+  backdrop-filter: blur(41.16666793823242px);
+  flex-shrink: 0;
+}
+/* .details-row{
+  padding-top: 100px;
+} */
+.details-cnt div{
+  padding: 8px 0px 8px 0px ;
+}
+.details-cnt div h1{
+  color: #FFF;
+
+  font-family: "Josefin Sans";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.details-cnt div h2 {
+  font-family: "Josefin Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+
+.details-cnt div p{
+  color: #FFF;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+.details-cnt .btn-cnt{
+  filter: blur(6.419483184814453px);
+flex-shrink: 0;
+}
+.details-cnt div button{
+  /* width: 85px;
+  height: 32px; */
+  text-align: center;
+  /* flex-shrink: 0; */
+  color: white;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
+  font-family: inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal; 
+  letter-spacing: 1.2px;
+  padding: 10px;
+}
+.pic-cnt div{
+background-image: url(../public/pattern.png);
+}
+.pic-cnt{
+  overflow: hidden;
+  
+}
+.pic-cnt div img{
+  width: 80%;
+
+}
+
+.second-sec{
+  padding: 100px 0px 0px 0px ;
+}
+
+
+.second-sec div div{
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.second-sec div div p{
+  color: #FFF;
+
+  font-family: Inter;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+/* third cnt  */
+.third-cnt-child div h2{
+  font-family: "Josefin Sans";
+font-size: 35.612px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.third-cnt-child div h2 span{
+  color: #FFF;
+  background-color: white;
+  font-family: Inter;
+  font-size: 30.926px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.third-cnt-child div p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 9.372px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.125px;
+  text-transform: uppercase;
+}
+.third-cnt-child div button{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 9.372px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.125px;
+  border-radius: 18.743px;
+background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
+
+}
+
+
+/* fouth child */
+.foruth-child .image{
+background-image: url(../public/fourth\ background.png);
+background-repeat: no-repeat;
+background-position: right;
+background-size: contain;
+
+}
+.foruth-child h2{
+  font-family: "Josefin Sans";
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.foruth-child h2 span{
+    color: #FFF;
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-family: Inter;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.foruth-child div p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+
+.foruth-child div button{
+  border-radius: 20px;
+  background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
+  color: #FFF;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.2px;
+
+}
+
+
+
+
+/* fifth section  */
+.fifth-sec .border-cnt{
+  position: relative;
+}
+.fifth-sec .border-cnt svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.foruth-child div h3{
+      color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.fifth-child div p{
+      color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 8.719px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+    letter-spacing: 1.046px;
+    text-transform: uppercase;
+  }
+
+.fifth-child .input-cnt {
+  position: relative;
+  z-index: 1;
+}
+.fifth-child .input-cnt svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;  
+}
+.fifth-child .input-cnt div input{
+  color: white;
+  padding: 8px;
+  position: relative;
+  padding-left: 20px;
+  z-index: 3;
+  outline: none;
+
+}
+/* .fifth-child .input-cnt div input::placeholder{
+
+} */
+.fifth-child .input-cnt div button{
+    position: relative;
+    z-index: 3;
+    outline: none;
+    border: none;
+    border-radius: 0px 23.79px 23.79px 0px;
+      color: #FFF;
+      padding: 11px;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    background: linear-gradient(180deg, #61B0B3 0%, #DA03D3 100%);
+      text-align: center;
+}
+
+
+
+
+/* sixth section starts from here  */
+.sixth-child div h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.22px;
+}
+
+.sixth-child div p{
+      color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.32px;
+    text-transform: uppercase;
+}
+
+/* .sixth-child div img{
+  align-self: center;
+  align-content: center;
+} */
+
+.sixth-child div a {
+  color: #FFF;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.68px;
+}
+
+.sixth-child div .first-spans{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.32px;
+}
+
+.sixth-child div .second-span{
+  color: #FFF;
+
+font-family: Inter;
+font-size: 8px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.96px; 
+}
