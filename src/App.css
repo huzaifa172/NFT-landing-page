@@ -1,12 +1,36 @@
 @import "tailwindcss";
 #root{
   background-color: #0F0E0E;
+  margin: 0px;
+  padding: 0px;
 }
+.main-cnt{
+  position: relative;
+}
+.widget button{
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-top: auto;
+  display: inline-flex;
+  /* height: 50px;
+  width: 50px;  */
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  color: white;
+  cursor: pointer;
+  background-color: #f59e0b;
+  border-style: none;
+  outline: none;
+
+}
+
 .hero-sec{
   background-color: #0F0E0E;
   background-image: url(../public/Ellipse\ 1.png);
-  background-repeat: repeat-y;
-  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 65% 0%;
   padding-bottom: 100px;
 } 
 
@@ -28,14 +52,18 @@
   backdrop-filter: blur(41.16666793823242px);
   flex-shrink: 0;
 }
-/* .details-row{
-  padding-top: 100px;
-} */
+
+.details-row{
+  overflow: hidden;
+}
+ .details-cnt{
+  padding-bottom: 150px;
+ }
 .details-cnt div{
-  padding: 8px 0px 8px 0px ;
+  padding: 3px 0px 3px 10px ;
 }
 .details-cnt div h1{
-  color: #FFF;
+  color: white;
 
   font-family: "Josefin Sans";
   font-size: 70px;
@@ -45,41 +73,45 @@
 }
 .details-cnt div h2 {
   font-family: "Josefin Sans";
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
 
 .details-cnt div p{
-  color: #FFF;
+  color: white;
 
 font-family: Inter;
-font-size: 14px;
+font-size: 10px;
 font-style: normal;
-font-weight: normal;
+font-weight: light;
 line-height: normal;
 letter-spacing: 1.2px;
 text-transform: uppercase;
 }
-.details-cnt .btn-cnt{
-  filter: blur(6.419483184814453px);
-flex-shrink: 0;
+.btn-blr {
+  position: relative;
 }
-.details-cnt div button{
-  /* width: 85px;
-  height: 32px; */
-  text-align: center;
-  /* flex-shrink: 0; */
+
+.btn-blr img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.btn-self{
   color: white;
+  position: relative;
+  z-index: 1;
+  outline: none;
+  border: 1px;
   border-radius: 20px;
   background: linear-gradient(90deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
   font-family: inter;
@@ -90,17 +122,24 @@ flex-shrink: 0;
   letter-spacing: 1.2px;
   padding: 10px;
 }
+
+
+.pic-cnt {
+  background-image: url(../public/pattern.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 .pic-cnt div{
-background-image: url(../public/pattern.png);
-}
-.pic-cnt{
-  overflow: hidden;
-  
-}
-.pic-cnt div img{
-  width: 80%;
+  background-image: url(../public/hero-sec-img.png);
+  padding: 220px 200px 200px 200px; 
+  background-repeat: no-repeat;
+  background-position: bottom;
 
 }
+
+
+/* second section start here  */
 
 .second-sec{
   padding: 100px 0px 0px 0px ;
@@ -114,7 +153,7 @@ background-image: url(../public/pattern.png);
   gap: 20px;
 }
 .second-sec div div p{
-  color: #FFF;
+  color: white;
 
   font-family: Inter;
   font-size: 18px;
@@ -127,6 +166,18 @@ background-image: url(../public/pattern.png);
 
 
 /* third cnt  */
+.btn-third-sec{
+position: relative;
+}
+.btn-third-sec img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.btn-third-sec button{
+  top: 25%;
+  left: 5%;
+}
 .third-cnt-child div h2{
   font-family: "Josefin Sans";
 font-size: 35.612px;
@@ -140,7 +191,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .third-cnt-child div h2 span{
-  color: #FFF;
+  color: white;
   background-color: white;
   font-family: Inter;
   font-size: 30.926px;
@@ -152,7 +203,7 @@ background-clip: text;
 }
 
 .third-cnt-child div p{
-  color: #FFF;
+  color: white;
   font-family: Inter;
   font-size: 9.372px;
   font-style: normal;
@@ -161,20 +212,6 @@ background-clip: text;
   letter-spacing: 1.125px;
   text-transform: uppercase;
 }
-.third-cnt-child div button{
-  color: #FFF;
-  font-family: Inter;
-  font-size: 9.372px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  letter-spacing: 1.125px;
-  border-radius: 18.743px;
-background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
-
-}
-
-
 /* fouth child */
 .foruth-child .image{
 background-image: url(../public/fourth\ background.png);
@@ -195,7 +232,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .foruth-child h2 span{
-    color: #FFF;
+    color: white;
     background: white;
     background-clip: text;
     -webkit-background-clip: text;
@@ -209,7 +246,7 @@ background-clip: text;
 }
 
 .foruth-child div p{
-    color: #FFF;
+    color: white;
     font-family: Inter;
     font-size: 10px;
     font-style: normal;
@@ -218,21 +255,18 @@ background-clip: text;
     letter-spacing: 1.2px;
     text-transform: uppercase;
 }
-
-
-.foruth-child div button{
-  border-radius: 20px;
-  background: linear-gradient(91deg, #0CFAF5 0.1%, #8766E1 22.24%, rgba(220, 0, 211, 0.73) 72.69%);
-  color: #FFF;
-  font-family: Inter;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  letter-spacing: 1.2px;
+.btn-fourth-sec{
+  position: relative;
+}
+.btn-fourth-sec img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.btn-fourth-sec button{
+    top: 25%;
 
 }
-
 
 
 
@@ -249,7 +283,7 @@ background-clip: text;
 }
 
 .foruth-child div h3{
-      color: #FFF;
+      color: white;
 
     font-family: Inter;
     font-size: 16px;
@@ -260,7 +294,7 @@ background-clip: text;
 }
 
 .fifth-child div p{
-      color: #FFF;
+      color: white;
 
     text-align: center;
     font-family: Inter;
@@ -301,7 +335,7 @@ background-clip: text;
     outline: none;
     border: none;
     border-radius: 0px 23.79px 23.79px 0px;
-      color: #FFF;
+      color: white;
       padding: 11px;
     font-family: Inter;
     font-size: 10px;
@@ -318,7 +352,7 @@ background-clip: text;
 
 /* sixth section starts from here  */
 .sixth-child div h3{
-    color: #FFF;
+    color: white;
     font-family: Inter;
     font-size: 22px;
     font-style: normal;
@@ -328,7 +362,7 @@ background-clip: text;
 }
 
 .sixth-child div p{
-      color: #FFF;
+      color: white;
 
     text-align: center;
     font-family: Inter;
@@ -346,7 +380,7 @@ background-clip: text;
 } */
 
 .sixth-child div a {
-  color: #FFF;
+  color: white;
   text-decoration: none;
   font-family: Inter;
   font-size: 14px;
@@ -357,7 +391,7 @@ background-clip: text;
 }
 
 .sixth-child div .first-spans{
-    color: #FFF;
+    color: white;
     font-family: Inter;
     font-size: 11px;
     font-style: normal;
@@ -367,7 +401,7 @@ background-clip: text;
 }
 
 .sixth-child div .second-span{
-  color: #FFF;
+  color: white;
 
 font-family: Inter;
 font-size: 8px;

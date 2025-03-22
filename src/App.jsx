@@ -1,13 +1,45 @@
 import './App.css'
+import { useState } from "react";
+
 
 function App() {
+  const [isChatVisible, setIsChatVisible] = useState(false);
+  const components = {
+    icon_close: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>`,
+    icon_message: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg>`,
+  };
+
+  
+
   return (
-      <div className="main-cnt flex h-screen w-screen bg-[#0F0E0E] flex-col items-center justify-start">
+      <div className="main-cnt h-screen w-screen flex bg-[#0F0E0E] flex-col items-center justify-start">  
+
+        <div className='widget'>
+          {/* Chat Widget Iframe */}
+          {isChatVisible && (
+            <iframe
+              id="chat-frame-widget"
+              src="https://demo-practics-chat.vercel.app/chat"
+              className="shadow-xl ring-1 rounded-lg fixed bottom-[110px] right-[60px] w-[400px] h-[495px] bg-white z-[999999999]"
+              style={{ border: "none", maxHeight: "100vh", maxWidth: "100vw" }}
+            ></iframe>
+          )}
+          <button
+            id="btn-trigger-chat"
+            className="shadow-xl ring-0 fixed bottom-[50px] right-[60px] bg-white  rounded-full "
+            onClick={() => setIsChatVisible(!isChatVisible)}
+          ><svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg></button>
+        </div>
+
+
+
    {/* hero section  */}
+
+
      <div className="hero-sec w-full flex flex-col items-center">
        
           {/* hero main section   */}
-       <div className="main-sec flex flex-col items-center max-w-[1440px] pt-[100px]">
+       <div className="main-sec flex flex-col items-center max-w-[770px] ">
          
          {/* <div className="t-icon-row w-full  flex flex-row justify-center ">
             <div className="icon-div p-10 flex justify-center p-1 ">
@@ -15,21 +47,24 @@ function App() {
             {/* </div> */}
          {/* </div> } */}
 
-
-         <div className="details-row w-full flex flex-row justify-center">
-              <div className="details-cnt w-[40%]">
+        
+         <div className="details-row w-full flex flex-row justify-center ">
+              <div className="details-cnt w-[50%] pt-[110px] flex flex-col gap-[5px]">
                 <div className="heading-cnt"><h1>NEXT GEN</h1></div>
                 <div className="tagline-cnt"><h2>VARTUAL REALITY</h2></div>
-                <div className="question-cnt"><p>Quisque. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut perspiciatis undeuisque. Maecenas. Eros mus. </p></div>
+                <div className="question-cnt"><p>Quisqua. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut perspiciatis undeuisque. Maecenas. Eros mus. </p></div>
+              <div className='btn-blr'><img src="../public/btn-buller.png" alt="" /><button className='btn-self'> see more</button></div>
 
-                <div><button>see more</button></div>
               </div>
-              <div className="pic-cnt w-[40%] flex">
-                <div className="pic flex justify-">
-                  <img src="../public/man-wearing-vr-glass.png" alt="" />
+
+              <div className=' w-[50%]  pt-[50px]'>
+
+              <div className="pic-cnt flex pt-[30px] flex flex-col items-end justify-start">
+                <div className="pic">
+                  {/* <img src="../public/hero-sec-img.png" alt=""  className=''/> */}
+                </div>
                 </div>
               </div>
-
          </div>
 
        </div>
@@ -77,8 +112,8 @@ function App() {
             <div>
               <p>Quisque. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut perspiciatis undeuisque. Maecenas. Eros mus.</p>
             </div>
-            <div>
-              <button className='play-now-btn'><span>Play now</span></button>
+            <div className='btn-third-sec'><img src="../public/btn-buller.png" alt="" />
+              <button className='btn-self play-now-btn'><span>Play now</span></button>
               <img src="" alt="" />
             </div>
           </div>
@@ -92,7 +127,7 @@ function App() {
       <div className="foruth-child  w-[50%] flex flex-col gap-[20px]">
         <div><h2>Touch the <span> reality</span></h2></div>
         <div><p>Quisque. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut perspiciatis undeuisque. Maecenas. Eros mus.</p></div>
-        <div><button>Play now</button></div>
+        <div className='btn-fourth-sec'><img src="../public/btn-buller.png" alt="" /><button className='btn-self'>Play now</button></div>
       </div>
       <div className="foruth-child  w-[50%] flex justify-end">
         <div className="image">
@@ -198,6 +233,6 @@ function App() {
           {/* sixth sec footer ends here  */}
     </div>
 
-)};
+)}
 
 export default App
