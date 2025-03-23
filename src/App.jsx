@@ -41,15 +41,19 @@ function App() {
           {/* hero main section   */}
        <div className="main-sec flex flex-col items-center max-w-[770px] ">
          
-         {/* <div className="t-icon-row w-full  flex flex-row justify-center ">
-            <div className="icon-div p-10 flex justify-center p-1 ">
-              {/* <img src="../public/images__3_-removebg-preview (3) 1.png" alt="icon image" className='w-[36px]'/> */}
-            {/* </div> */}
-         {/* </div> } */}
-
+{/* header  */}
+<div className="head-cnt w-full ">
+            <div className="li-cnt w-full flex flex-row justify-around items-center">
+              <div className='list'><a href="">HOME</a></div>
+              <div className='list'><a href="">PRODUCTS</a></div>
+              <div className='list '><img src="../public/images__3_-removebg-preview (3) 1.png" alt="glass" /></div>
+              <div className='list'><a href="">SERVICES</a></div>
+              <div className='list'><a href="">CONTACTS</a></div>
+            </div>
+          </div>
         
          <div className="details-row w-full flex flex-row justify-center ">
-              <div className="details-cnt w-[50%] pt-[110px] flex flex-col gap-[5px]">
+              <div className="details-cnt w-[50%] pt-[70px] flex flex-col gap-[5px]">
                 <div className="heading-cnt"><h1>NEXT GEN</h1></div>
                 <div className="tagline-cnt"><h2>VARTUAL REALITY</h2></div>
                 <div className="question-cnt"><p>Quisqua. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut perspiciatis undeuisque. Maecenas. Eros mus. </p></div>
@@ -57,7 +61,7 @@ function App() {
 
               </div>
 
-              <div className=' w-[50%]  pt-[50px]'>
+              <div className=' w-[50%]  pt-[10px]'>
 
               <div className="pic-cnt flex pt-[30px] flex flex-col items-end justify-start">
                 <div className="pic">
@@ -89,6 +93,7 @@ function App() {
      
      
      
+
      </div>
       {/* hero section ends here  */}
 
