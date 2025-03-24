@@ -94,7 +94,7 @@
     font-size: 16px;
     }
     .fourth-sec{
-      padding-bottom: 0px;
+      padding-bottom: 0px !important;
     }
     .fourth-sec div{
       gap: 10px;

@@ -24,7 +24,7 @@ function App() {
             <div className="li-cnt w-full flex flex-row justify-around items-center">
               <div className='list'><a href="">HOME</a></div>
               <div className='list'><a href="">PRODUCTS</a></div>
-              <div className='list '><img src="../public/images__3_-removebg-preview (3) 1.png" alt="glass" /></div>
+              <div className='list '><img src="../public/top-image.png" alt="glass" /></div>
               <div className='list'><a href="">SERVICES</a></div>
               <div className='list'><a href="">CONTACTS</a></div>
             </div>
@@ -55,15 +55,15 @@ function App() {
        <div className="second-sec">
             <div className='inline-flex justify-center items-center gap-[34px]'>
               <div className="first">
-                <img src="../public/Rectangle 5.png" alt="" />
+                <img src="../public/Rectangle1.png" alt="" />
                 <p>Gear VR Headset</p>
               </div>
               <div className="second">
-                <img src="../public/../public/Rectangle 8.png" alt="" />
+                <img src="../public/../public/Rectangle2.png" alt="" />
                 <p>Smart VR Headset</p>
               </div>
               <div className="third">
-                <img src="../public/Rectangle 7.png" alt="" />
+                <img src="../public/Rectangle3.png" alt="" />
                 <p>Play station VR</p>
               </div>
             </div>
@@ -81,11 +81,11 @@ function App() {
       <div className='flex flex-row justify-between gap-[80px] max-w-[770px]'>
           <div className="third-cnt-child flex justify-start  items-center w-[50%]">
             <div>
-              <img src="../public/thirdsec-images (6).png" alt="first image" />
+              <img src="../public/third-sec-1.png" alt="first image" />
             </div>
             <div className='second-pics flex flex-col items-end'>
-              <div><img src="../public/thirdsec-download (5).png" alt="" /></div>
-              <div><img src="../public/thirdsec-images (7).png" alt="" /></div>
+              <div><img src="../public/third-sec-2.png" alt="" /></div>
+              <div><img src="../public/third-sec-3.png" alt="" /></div>
             </div>
           </div>
           <div className="third-cnt-child w-[50%] flex flex-col   gap-[20px]">
@@ -105,7 +105,7 @@ function App() {
     {/* third section ends here  */}
 
     {/* fourth section  */}
-    <div className='fourth-sec bg-[#0F0E0E] w-full flex flex-row justify-center pb-[0px] pt-[0px]'>
+    <div className='fourth-sec bg-[#0F0E0E] w-full flex flex-row justify-center pb-[100px] pt-[0px]'>
     <div className='max-w-[770px] flex justify-between'>
       <div className="foruth-child  w-[50%] flex flex-col gap-[20px]">
         <div><h2>Touch the <span> reality</span></h2></div>
@@ -114,7 +114,7 @@ function App() {
       </div>
       <div className="foruth-child  w-[50%] flex justify-end">
         <div className="image">
-          <img src="../public/images__8_-removebg-preview (1) 2.png" alt="" />
+          <img src="../public/fourth-sec.png" alt="" />
         </div>
       </div>
     </div>
