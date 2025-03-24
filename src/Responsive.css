@@ -1,0 +1,735 @@
+@import "tailwindcss";
+
+
+
+@media (min-width : 280px) and (max-width : 360px) {
+  /* header */
+  .head-cnt{
+    max-width: 420px;
+    width: 95%;
+    background-position: 47.5% 0% ;
+    background-size: 25%;
+}
+.head-cnt div .list img{
+  width: 45px;
+}
+.head-cnt div .list a{
+  font-size: 8px;
+}
+  /* hero section  */
+  .hero-sec{
+    width: 100%;
+    background-position: 100% 30%;
+    background-size: 80%; 
+    padding-right: 0px;
+    padding-bottom: 0px;  
+  }
+  .main-sec{
+    max-width: 420px;
+    width: 98%;
+    z-index: 0;
+  }
+  .details-row{
+    max-width: 420px;
+    }
+  .head-cnt{
+    z-index: 9999;
+  }
+  .details-cnt{
+    padding-bottom: 0px;
+  }
+  .details-cnt div h1{
+    font-size: 22px;
+  }
+  .details-cnt div h2{
+    font-size: 14px;
+  }
+  .details-cnt div p{
+    font-size: 5px;
+    padding-bottom: 10px;
+  }
+  .details-cnt{
+    padding: 60px 0px 0px 8px;
+  }
+  /* second sec  */
+  .second-sec{
+    max-width: 420px;
+    width: 88%;
+  }
+.second-sec div div p{
+  font-size: 10px;
+}
+.second-sec {
+  padding-top: 50px;
+}
+  /* third section  */
+  .third-sec div{
+    max-width: 420px;
+    width: 98%;
+  }
+  .third-cnt-child{
+    gap: 10px !important;
+  }
+  .third-cnt-child div h2{
+    font-size: 18px;
+  }
+  .third-cnt-child div h2 span{
+    font-size: 16px;
+  }
+  .third-cnt-child div p{
+    font-size: 5px;
+  }
+  .third-sec{
+    padding-bottom: 40px;
+  }
+  /* fourth section  */
+  .fourth-sec div{
+    max-width: 420px;
+    width: 98%;
+   }
+   .fourth-sec div div h2{
+    font-size: 18px;
+   }
+   .fourth-sec div div h2 span{
+    font-size: 16px;
+    }
+    .fourth-sec{
+      padding-bottom: 0px;
+    }
+    .fourth-sec div{
+      gap: 10px;
+    }
+   .fourth-sec div div p{
+    font-size: 5px;
+  }
+
+  .foruth-child div {
+    display: flex;
+  }
+  /* pic container  */
+   .pic-cnt div{
+    background-position: bottom;
+    padding: 130px 80px 80px 80px ;
+    background-size: 100%;
+    /* background-color: red; */
+   }
+   .pic-cnt{
+    padding-top: 0px;
+    background-position: bottom;
+    background-size: 100%;
+   }
+   .third-sec div{
+    gap: 20px;
+  }
+  .third-cnt-child .second-pics{
+    align-items: end;
+    justify-content: center;
+  }
+  /* fifth child   */
+  .fifth-sec .border-cnt {
+    max-width: 260px;
+    
+  }
+  .fifth-sec .border-cnt svg{
+  max-width: 260px;
+
+  }
+  .fifth-sec .border-cnt div{
+    gap: 10px;
+  }
+
+  .input-div{
+    width: 69%;
+  }
+.fifth-child div h3{
+  font-size: 10px;
+}
+.fifth-child{
+  padding-top: 10px;
+}
+.fifth-child div p{
+  font-size: 5px;
+}
+.fifth-child .input-cnt{
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-child .input-cnt div{
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+.fifth-child .input-cnt div input{
+  font-size: 13.5px;
+}
+.fifth-child .input-cnt svg{
+  width: 200px;
+
+}
+.fifth-child .input-cnt div button{
+  padding: 5px;
+  }
+  /* sixth section  */
+ 
+  .sixth-child div a{
+    font-size: 10px;
+  }
+  .sixth-child div p{
+    font-size: 5px;
+    max-width: 400px;
+  }
+  .sixth-child div h3{
+    font-size: 18px;
+  }
+  .sixth-child{
+    gap: 10px;
+    max-width: 420px;
+    width: 100%;
+  }
+  .sixth-sec {
+    max-width: 420px;
+    width: 98%;
+  }
+  .sixth-sec div{
+    gap: 20px;
+  }
+  .sixth-sec .menu-child{
+    gap: 0px;
+    justify-content: space-around;
+  }
+  .sixth-sec{
+    padding: 100px 5px 20px 5px;
+  }
+  .first-spans{
+    font-size: 5px !important;
+  }
+  .second-span{
+    font-size: 8px !important;
+  }
+  .widget button{
+    right: 10px;
+    bottom: 10px;
+  }
+  .widget iframe{
+    right: 10px;
+    bottom: 70px;
+  }
+  .sixth-sec{
+    padding-top: 20px;
+  }
+}
+
+/* till 320 responsiveness  */
+@media (min-width : 361px) and (max-width : 420px) {
+  /* header */
+  .head-cnt{
+    max-width: 420px;
+    width: 95%;
+    background-position: 46.5% 0% ;
+    background-size: 20%;
+}
+.head-cnt div .list img{
+  width: 45px;
+}
+  /* hero section  */
+  .hero-sec{
+    width: 100%;
+    background-position: 100% 30%;
+    background-size: 80%; 
+    padding-right: 0px;
+    padding-bottom: 0px;  
+  }
+  .main-sec{
+    max-width: 420px;
+    width: 98%;
+    z-index: 0;
+  }
+  .details-row{
+    max-width: 420px;
+    }
+  .head-cnt{
+    z-index: 9999;
+  }
+  .details-cnt{
+    padding-bottom: 0px;
+  }
+  .details-cnt div h1{
+    font-size: 30px;
+  }
+  .details-cnt div h2{
+    font-size: 16px;
+  }
+  .details-cnt div p{
+    font-size: 5px;
+    padding-bottom: 10px;
+  }
+  .details-cnt{
+    padding: 60px 0px 0px 8px;
+  }
+  /* second sec  */
+  .second-sec{
+    max-width: 420px;
+    width: 88%;
+  }
+.second-sec div div p{
+  font-size: 10px;
+}
+.second-sec {
+  padding-top: 50px;
+}
+  /* third section  */
+  .third-sec div{
+    max-width: 420px;
+    width: 98%;
+  }
+  .third-cnt-child div h2{
+    font-size: 25px;
+  }
+  .third-cnt-child div h2 span{
+    font-size: 23px;
+  }
+  .third-cnt-child div p{
+    font-size: 5px;
+  }
+  /* fourth section  */
+  .fourth-sec div{
+    max-width: 420px;
+    width: 98%;
+   }
+   .fourth-sec div div h2{
+    font-size: 25px;
+   }
+   .fourth-sec{
+    padding-bottom: 50px !important;
+   }
+   .fourth-sec div div h2 span{
+    font-size: 25px;
+    }
+   .fourth-sec div div p{
+    font-size: 5px;
+  }
+  /* pic container  */
+   .pic-cnt div{
+    background-position: bottom;
+    padding: 150px 100px 100px 120px ;
+    background-size: 100%;
+    /* background-color: red; */
+   }
+   .pic-cnt{
+    padding-top: 20px;
+    background-position: bottom;
+    background-size: 110%;
+   }
+   .third-sec div{
+    gap: 20px;
+  }
+  .third-cnt-child .second-pics{
+    align-items: end;
+    justify-content: center;
+  }
+  /* fifth child   */
+  .fifth-sec .border-cnt {
+    max-width: 360px;
+    
+  }
+  .fifth-sec .border-cnt svg{
+  max-width: 360px;
+
+  }
+  .fifth-sec .border-cnt div{
+    gap: 10px;
+  } 
+  .input-div{
+    width: 69%;
+  }
+.fifth-child div h3{
+  font-size: 10px;
+}
+.fifth-child{
+  padding-top: 10px;
+}
+.fifth-child div p{
+  font-size: 5px;
+}
+  /* sixth section  */
+  .sixth-child div a{
+    font-size: 10px;
+  }
+  .sixth-child div p{
+    font-size: 5px;
+    max-width: 400px;
+  }
+  .sixth-child div h3{
+    font-size: 18px;
+  }
+  .sixth-child{
+    gap: 10px;
+    max-width: 420px;
+    width: 100%;
+  }
+  .sixth-sec {
+    max-width: 420px;
+    width: 98%;
+  }
+  .sixth-sec div{
+    gap: 20px;
+  }
+  .sixth-sec .menu-child{
+    gap: 0px;
+    justify-content: space-around;
+  }
+  .sixth-sec{
+    padding: 100px 5px 20px 5px;
+  }
+  .first-spans{
+    font-size: 5px !important;
+  }
+  .second-span{
+    font-size: 8px !important;
+  }
+  .widget button{
+    right: 10px;
+    bottom: 10px;
+  }
+  .widget iframe{
+    right: 10px;
+    bottom: 70px;
+  }
+
+}
+
+
+@media (min-width : 421px) and (max-width : 520px) {
+  .hero-sec{
+    width: 100%;
+    background-position: 100% 10%;
+    background-size: 90%; 
+    padding-right: 0px;  
+  }
+  .main-sec{
+    max-width: 520px;
+    width: 98%;
+    z-index: 0;
+  }
+  .details-row{
+    max-width: 520px;
+    }
+  .head-cnt{
+    z-index: 9999;
+  }
+  .details-cnt{
+    padding-bottom: 0px;
+  }
+  .details-cnt div h1{
+    font-size: 40px;
+  }
+  .details-cnt div h2{
+    font-size: 20px;
+  }
+  .details-cnt div p{
+    font-size: 7px;
+    padding-bottom: 10px;
+  }
+  .details-cnt{
+    padding: 90px 0px 0px 8px;
+  }
+  /* second sec  */
+  .second-sec{
+    max-width: 520px;
+    width: 88%;
+  }
+  /* third section  */
+  .third-sec div{
+    max-width: 520px;
+    width: 98%;
+  }
+  .third-cnt-child div h2{
+    font-size: 30px;
+  }
+  .third-cnt-child div h2 span{
+    font-size: 30px;
+  }
+  .third-cnt-child div p{
+    font-size: 7px;
+  }
+  /* fourth section  */
+  .fourth-sec div{
+    max-width: 768px;
+    width: 98%;
+   }
+   .fourth-sec div div h2{
+    font-size: 30px;
+   }
+   .fourth-sec div div h2 span{
+    font-size: 30px;
+    }
+   .fourth-sec div div p{
+    font-size: 7px;
+  }
+
+   .pic-cnt div{
+    background-position: center;
+    padding: 150px 120px 120px 120px ;
+    background-size: 130%;
+   }
+   .pic-cnt{
+    padding-top: 70px;
+    background-position: bottom;
+    background-size: 100%;
+   }
+   .third-sec div{
+    gap: 20px;
+  }
+  .third-cnt-child .second-pics{
+    align-items: end;
+    justify-content: center;
+  }
+  /* fifth child   */
+  .fifth-sec .border-cnt {
+    max-width: 360px;
+    
+  }
+  .fifth-sec .border-cnt svg{
+  max-width: 360px;
+
+  }
+  .fifth-sec .border-cnt div{
+    gap: 10px;
+  } 
+  .input-div{
+    width: 69%;
+  }
+.fifth-child div h3{
+  font-size: 12px;
+}
+.fifth-child{
+  padding-top: 10px;
+}
+.fifth-child div p{
+  font-size: 7px;
+}
+  /* sixth section  */
+  .sixth-child div a{
+    font-size: 14px;
+  }
+  .sixth-child div p{
+    font-size: 7px;
+    max-width: 400px;
+  }
+  .sixth-child div h3{
+    font-size: 20px;
+  }
+  .sixth-child{
+    max-width: 520px;
+    width: 100%;
+  }
+  .sixth-sec{
+    max-width: 520px;
+    width: 98%;
+  }
+  .sixth-sec .menu-child{
+    gap: 0px;
+    justify-content: space-around;
+  }
+  .sixth-sec{
+    padding: 100px 5px 20px 5px;
+  }
+
+
+}
+
+/* 520px  resposiveness*/
+@media (min-width : 521px) and (max-width : 520px) {
+  .hero-sec{
+    width: 100%;
+    background-position: 100% 10%;
+    background-size: 90%; 
+    padding-right: 0px;  
+  }
+  .main-sec{
+    max-width: 520px;
+    width: 98%;
+    z-index: 0;
+  }
+  .details-row{
+    max-width: 520px;
+    }
+  .head-cnt{
+    z-index: 9999;
+  }
+  .details-cnt{
+    padding-bottom: 0px;
+  }
+  .details-cnt div h1{
+    font-size: 45px;
+  }
+  .details-cnt div h2{
+    font-size: 25px;
+  }
+  .details-cnt div p{
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+  .details-cnt{
+    padding: 90px 0px 0px 8px;
+  }
+  /* second sec  */
+  .third-sec div{
+    max-width: 520px;
+    width: 98%;
+  }
+
+  .fourth-sec div{
+    max-width: 768px;
+    width: 98%;
+   }
+
+   .pic-cnt div{
+    background-position: center;
+    padding: 150px 120px 120px 120px ;
+    background-size: 130%;
+   }
+   .pic-cnt{
+    padding-top: 90px;
+    background-position: bottom;
+    background-size: 100%;
+   }
+   .third-sec div{
+    gap: 20px;
+  }
+  .third-cnt-child .second-pics{
+    align-items: end;
+    justify-content: center;
+  } 
+  .sixth-child div a{
+    font-size: 14px;
+  }
+  .sixth-child{
+    max-width: 520px;
+    width: 100%;
+  }
+  .sixth-sec{
+    max-width: 520px;
+    width: 98%;
+  }
+  .sixth-sec .menu-child{
+    gap: 0px;
+    justify-content: space-around;
+  }
+  .sixth-sec{
+    padding: 100px 5px 20px 5px;
+  }
+
+
+}
+
+/* 700px responsiveness  */
+@media (min-width : 601px) and (max-width : 700px) {
+    
+  .hero-sec{
+    width: 100%;
+    background-position: 100% 10%;
+    background-size: 90%; 
+    padding-right: 0px;  
+  }
+  .main-sec{
+    max-width: 700px;
+    width: 98%;
+    z-index: 0;
+  }
+  .details-row{
+    max-width: 700px;
+    }
+  .head-cnt{
+    z-index: 9999;
+  }
+  .details-cnt{
+    padding-bottom: 0px;
+  }
+  .details-cnt div h1{
+    font-size: 55px;
+  }
+  .details-cnt div h2{
+    font-size: 30px;
+  }
+  .details-cnt div p{
+    font-size: 9px;
+    padding-bottom: 10px;
+  }
+  .details-cnt{
+    padding: 70px 0px 0px 8px;
+  }
+  /* second sec  */
+  .third-sec div{
+    max-width: 768px;
+    width: 98%;
+  }
+
+  .fourth-sec div{
+    max-width: 768px;
+    width: 98%;
+   }
+
+   .pic-cnt div{
+    padding: 200px 160px 160px 160px ;
+   }
+   .pic-cnt{
+    padding-top: 90px;
+   }
+   .third-sec div{
+    gap: 20px;
+  }
+  .third-cnt-child .second-pics{
+    align-items: end;
+    justify-content: center;
+  }
+}
+
+/* tablet responsiveness  */
+@media (min-width : 701px) and (max-width : 768px) {
+    
+  .hero-sec{
+    width: 100%;
+    background-position: 100% 0%;
+    background-size: 80%; 
+    padding-right: 0px;  
+  }
+  .main-sec{
+    max-width: 768px;
+    width: 98%;
+    z-index: 0;
+  }
+  .details-row{
+    max-width: 748px;
+    }
+  .head-cnt{
+    z-index: 9999;
+  }
+  .details-cnt{
+    padding-bottom: 0px;
+  }
+  .details-cnt div h1{
+    font-size: 60px;
+  }
+  .details-cnt div h2{
+    font-size: 35px;
+  }
+  .details-cnt div p{
+    padding-bottom: 10px;
+  }
+  .details-cnt{
+    padding: 70px 0px 0px 8px;
+  }
+  /* second sec  */
+  .third-sec div{
+    max-width: 768px;
+    width: 98%;
+  }
+
+  .fourth-sec div{
+    max-width: 768px;
+    width: 98%;
+   }
+
+}

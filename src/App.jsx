@@ -1,37 +1,15 @@
 import './App.css'
 import { useState } from "react";
-
+import './Responsive.css'
 
 function App() {
   const [isChatVisible, setIsChatVisible] = useState(false);
   const components = {
-    icon_close: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>`,
-    icon_message: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg>`,
+    icon_close: (<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>),
+    icon_message: (<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg>),
   };
-
-  
-
   return (
       <div className="main-cnt h-screen w-screen flex bg-[#0F0E0E] flex-col items-center justify-start">  
-
-        <div className='widget'>
-          {/* Chat Widget Iframe */}
-          {isChatVisible && (
-            <iframe
-              id="chat-frame-widget"
-              src="https://demo-practics-chat.vercel.app/chat"
-              className="shadow-xl ring-1 rounded-lg fixed bottom-[110px] right-[60px] w-[400px] h-[495px] bg-white z-[999999999]"
-              style={{ border: "none", maxHeight: "100vh", maxWidth: "100vw" }}
-            ></iframe>
-          )}
-          <button
-            id="btn-trigger-chat"
-            className="shadow-xl ring-0 fixed bottom-[50px] right-[60px] bg-white  rounded-full "
-            onClick={() => setIsChatVisible(!isChatVisible)}
-          ><svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg></button>
-        </div>
-
-
 
    {/* hero section  */}
 
@@ -105,7 +83,7 @@ function App() {
             <div>
               <img src="../public/thirdsec-images (6).png" alt="first image" />
             </div>
-            <div className='flex flex-col items-end'>
+            <div className='second-pics flex flex-col items-end'>
               <div><img src="../public/thirdsec-download (5).png" alt="" /></div>
               <div><img src="../public/thirdsec-images (7).png" alt="" /></div>
             </div>
@@ -127,7 +105,7 @@ function App() {
     {/* third section ends here  */}
 
     {/* fourth section  */}
-    <div className=' bg-[#0F0E0E] w-full flex flex-row justify-center pb-[100px] pt-[0px]'>
+    <div className='fourth-sec bg-[#0F0E0E] w-full flex flex-row justify-center pb-[0px] pt-[0px]'>
     <div className='max-w-[770px] flex justify-between'>
       <div className="foruth-child  w-[50%] flex flex-col gap-[20px]">
         <div><h2>Touch the <span> reality</span></h2></div>
@@ -193,7 +171,7 @@ function App() {
                   </linearGradient>
                   </defs>
                   </svg>
-                      <div className='w-[72%]'>
+                      <div className='input-div w-[72%]'>
                         <input type="email"  placeholder='Email' className='text-white'/>
                       </div>
                       <div className='w-[20%]'>
@@ -212,7 +190,7 @@ function App() {
           <div className='sixth-sec bg-[#0F0E0E] w-full flex justify-center items-center pb-[50px]  p-[100px]'>
           <div className='sixth-cnt flex flex-col items-center justify-center w-[770px] gap-[40px]'>
               
-              <div className="sixth-child w-full flex items-center justify-around gap-[50px]">
+              <div className="menu-child sixth-child w-full flex items-center justify-around gap-[50px]">
                     <div className="menu-footer"><a href="">Help</a></div>
                     <div className="menu-footer"><a href="">About us</a></div>
                     <div className="menu-footer"><a href="">Company</a></div>
@@ -237,7 +215,6 @@ function App() {
           </div>
           {/* sixth sec footer ends here  */}
     </div>
-
-)}
+  )}
 
 export default App
