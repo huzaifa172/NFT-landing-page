@@ -24,7 +24,7 @@ function App() {
             <div className="li-cnt w-full flex flex-row justify-around items-center">
               <div className='list'><a href="">HOME</a></div>
               <div className='list'><a href="">PRODUCTS</a></div>
-              <div className='list '><img src="../public/top-image.png" alt="glass" /></div>
+              <div className='list '><img src="/top-image.png" alt="glass" /></div>
               <div className='list'><a href="">SERVICES</a></div>
               <div className='list'><a href="">CONTACTS</a></div>
             </div>
@@ -35,7 +35,7 @@ function App() {
                 <div className="heading-cnt"><h1>NEXT GEN</h1></div>
                 <div className="tagline-cnt"><h2>VARTUAL REALITY</h2></div>
                 <div className="question-cnt"><p>Quisqua. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut perspiciatis undeuisque. Maecenas. Eros mus. </p></div>
-              <div className='btn-blr'><img src="../public/btn-buller.png" alt="" /><button className='btn-self'> see more</button></div>
+              <div className='btn-blr'><img src="/btn-buller.png" alt="" /><button className='btn-self'> see more</button></div>
 
               </div>
 
@@ -43,7 +43,7 @@ function App() {
 
               <div className="pic-cnt flex pt-[30px] flex flex-col items-end justify-start">
                 <div className="pic">
-                  {/* <img src="../public/hero-sec-img.png" alt=""  className=''/> */}
+                  {/* <img src="/hero-sec-img.png" alt=""  className=''/> */}
                 </div>
                 </div>
               </div>
@@ -55,15 +55,15 @@ function App() {
        <div className="second-sec">
             <div className='inline-flex justify-center items-center gap-[34px]'>
               <div className="first">
-                <img src="../public/Rectangle1.png" alt="" />
+                <img src="/Rectangle1.png" alt="" />
                 <p>Gear VR Headset</p>
               </div>
               <div className="second">
-                <img src="../public/../public/Rectangle2.png" alt="" />
+                <img src="/Rectangle2.png" alt="" />
                 <p>Smart VR Headset</p>
               </div>
               <div className="third">
-                <img src="../public/Rectangle3.png" alt="" />
+                <img src="/Rectangle3.png" alt="" />
                 <p>Play station VR</p>
               </div>
             </div>
@@ -81,11 +81,11 @@ function App() {
       <div className='flex flex-row justify-between gap-[80px] max-w-[770px]'>
           <div className="third-cnt-child flex justify-start  items-center w-[50%]">
             <div>
-              <img src="../public/third-sec-1.png" alt="first image" />
+              <img src="/third-sec-1.png" alt="first image" />
             </div>
             <div className='second-pics flex flex-col items-end'>
-              <div><img src="../public/third-sec-2.png" alt="" /></div>
-              <div><img src="../public/third-sec-3.png" alt="" /></div>
+              <div><img src="/third-sec-2.png" alt="" /></div>
+              <div><img src="/third-sec-3.png" alt="" /></div>
             </div>
           </div>
           <div className="third-cnt-child w-[50%] flex flex-col   gap-[20px]">
@@ -95,7 +95,7 @@ function App() {
             <div>
               <p>Quisque. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut perspiciatis undeuisque. Maecenas. Eros mus.</p>
             </div>
-            <div className='btn-third-sec'><img src="../public/btn-buller.png" alt="" />
+            <div className='btn-third-sec'><img src="/btn-buller.png" alt="" />
               <button className='btn-self play-now-btn'><span>Play now</span></button>
               <img src="" alt="" />
             </div>
@@ -110,11 +110,11 @@ function App() {
       <div className="foruth-child  w-[50%] flex flex-col gap-[20px]">
         <div><h2>Touch the <span> reality</span></h2></div>
         <div><p>Quisque. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut perspiciatis undeuisque. Maecenas. Eros mus.</p></div>
-        <div className='btn-fourth-sec'><img src="../public/btn-buller.png" alt="" /><button className='btn-self'>Play now</button></div>
+        <div className='btn-fourth-sec'><img src="/btn-buller.png" alt="" /><button className='btn-self'>Play now</button></div>
       </div>
       <div className="foruth-child  w-[50%] flex justify-end">
         <div className="image">
-          <img src="../public/fourth-sec.png" alt="" />
+          <img src="/fourth-sec.png" alt="" />
         </div>
       </div>
     </div>
@@ -201,15 +201,15 @@ function App() {
                   <div className="app-headin"><h3>Download our App</h3></div>
                   <div className="app-text"><p>Quisque. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et adipisc iquam class bibendum non mattis fusceut</p></div>
                   <div className="app-icon flex flex-row items-center justify-center gap-[10px]">
-                      <img src="../public/googlePlay.png" alt="Play store" />
-                      <img src="../public/app-store.png" alt="App store" />
+                      <img src="/googlePlay.png" alt="Play store" />
+                      <img src="/app-store.png" alt="App store" />
                     
                   </div>
               </div>
               <div className="sixth-child flex items-center justify-between w-full border-t pt-1 border-white">
                     <div className="footer-line flex gap-[5px]"><span className='first-spans'>Terms</span><span className='first-spans'>Privacy</span><span className='first-spans'>Conditions</span></div>
                     <div className="footer-line flex"><span className='second-span'>@2024 via ZOME Ltd All Right Reserved</span></div>
-                    <div className="footer-line flex gap-[10px]"><span><img src="../public/facebook.png" alt="facebook" /></span><span><img src="../public/twitter.png" alt="twitter" /></span><span><img src="../public/instagram.png" alt="insta" /></span></div>
+                    <div className="footer-line flex gap-[10px]"><span><img src="/facebook.png" alt="facebook" /></span><span><img src="/twitter.png" alt="twitter" /></span><span><img src="/instagram.png" alt="insta" /></span></div>
               </div>  
           </div>
           </div>
