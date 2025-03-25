@@ -16,54 +16,71 @@
 .head-cnt div .list a{
   font-size: 8px;
 }
+
+.head-cnt{
+z-index: 9999;
+}
   /* hero section  */
   .hero-sec{
     width: 100%;
     background-position: 100% 10%;
     background-size: 90%; 
     padding-right: 0px;
-    padding-bottom: 0px;  
+    padding-bottom: 50px !important;  
   }
   .main-sec{
-    max-width: 420px;
     width: 98%;
     z-index: 0;
+   display: flex;
   }
   .details-row{
-    max-width: 420px;
-    }
-  .head-cnt{
-    z-index: 9999;
+    flex-direction: column !important;
+    width: 98%;
   }
   .details-cnt{
-    padding-bottom: 0px;
-  }
+
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }    
   .details-cnt div h1{
-    font-size: 22px;
+    font-size: 40px;
   }
   .details-cnt div h2{
-    font-size: 14px;
+    font-size: 30px;
   }
-  .details-cnt div p{
-    font-size: 5px;
-    padding-bottom: 10px;
-  }
-  .details-cnt{
-    padding: 40px 0px 0px 0px;
+  .details-cnt .btn-blr img{
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
   }
 
     /* pic container  */
     .pic-cnt div{
       background-position: bottom;
-      padding: 130px 100px 100px 100px ;
-      background-size: 100%;
+      padding: 180px 150px 150px 150px ;
+      background-size: 120% !important;
       /* background-color: red; */
      }
-     .pic-cnt{
+     .details-row div{
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-position: center;
+      width: 100%;
+     }
+     .details-cnt{
+      padding-top: 15px;
+     }
+     .pic-cnt {
       padding-top: 0px;
       background-position: bottom;
-      background-size: 130%;
+      background-size: 80% !important;
      }
+
+
+
+
+     /* third section is here  */
      .third-sec div{
       gap: 20px;
     }
@@ -223,6 +240,7 @@
   }
   .fifth-sec .border-cnt svg{
   max-width: 260px;
+  z-index: 0;
 
   }
   .fifth-sec .border-cnt div{
@@ -255,62 +273,39 @@
 }
 .fifth-child .input-cnt div input{
   font-size: 13.5px;
+  z-index: 9999999999999999999;
 }
 .fifth-child .input-cnt svg{
   width: 200px;
+  z-index: 0;
 
 }
 .fifth-child .input-cnt div button{
   padding: 5px;
+  z-index: 9999999999999999999;
   }
+
+
+
+
   /* sixth section  */
- 
-  .sixth-child div a{
-    font-size: 10px;
-  }
-  .sixth-child div p{
-    font-size: 5px;
-    max-width: 400px;
-  }
-  .sixth-child div h3{
-    font-size: 18px;
-  }
-  .sixth-child{
-    gap: 10px;
-    max-width: 420px;
-    width: 100%;
-  }
-  .sixth-sec {
-    max-width: 420px;
+  .sixth-sec{
     width: 98%;
-  }
-  .sixth-sec div{
-    gap: 20px;
-  }
-  .sixth-sec .menu-child{
-    gap: 0px;
-    justify-content: space-around;
-  }
-  .sixth-sec{
-    padding: 100px 5px 20px 5px;
-  }
-  .first-spans{
-    font-size: 5px !important;
-  }
-  .second-span{
-    font-size: 8px !important;
-  }
-  .widget button{
-    right: 10px;
-    bottom: 10px;
-  }
-  .widget iframe{
-    right: 10px;
-    bottom: 70px;
-  }
-  .sixth-sec{
+    /* background-color: red; */
     padding-top: 20px;
+    text-align: center;
   }
+  .sixth-cnt .menu-child{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+  }
+  .sixth-last{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  } 
 }
 
 /* till 320 responsiveness  */

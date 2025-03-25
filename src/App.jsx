@@ -240,7 +240,7 @@ function App() {
                     
                   </div>
               </div>
-              <div className="sixth-child flex items-center justify-between w-full border-t pt-1 border-white">
+              <div className="sixth-child sixth-last flex items-center justify-between w-full border-t pt-1 border-white">
                     <div className="footer-line flex gap-[5px]"><span className='first-spans'>Terms</span><span className='first-spans'>Privacy</span><span className='first-spans'>Conditions</span></div>
                     <div className="footer-line flex"><span className='second-span'>@2024 via ZOME Ltd All Right Reserved</span></div>
                     <div className="footer-line flex gap-[10px]"><span><img src="/facebook.png" alt="facebook" /></span><span><img src="/twitter.png" alt="twitter" /></span><span><img src="/instagram.png" alt="insta" /></span></div>
