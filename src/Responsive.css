@@ -145,8 +145,10 @@
   font-size: 10px;
 }
 .fifth-child{
-  padding-top: 10px;
+  padding-top: 20px;
+
 }
+
 .fifth-child div p{
   font-size: 5px;
 }
@@ -283,6 +285,9 @@
     max-width: 420px;
     width: 98%;
   }
+  .third-sec{
+    padding-bottom: 50px;
+  }
   .third-cnt-child div h2{
     font-size: 25px;
   }
@@ -303,6 +308,13 @@
    .fourth-sec{
     padding-bottom: 50px !important;
    }
+   .foruth-child .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: baseline;
+
+  }
    .fourth-sec div div h2 span{
     font-size: 25px;
     }
@@ -380,7 +392,7 @@
     justify-content: space-around;
   }
   .sixth-sec{
-    padding: 100px 5px 20px 5px;
+    padding: 50px 5px 20px 5px;
   }
   .first-spans{
     font-size: 5px !important;
@@ -406,6 +418,7 @@
     background-position: 100% 10%;
     background-size: 90%; 
     padding-right: 0px;  
+    padding-bottom: 50px;
   }
   .main-sec{
     max-width: 520px;
@@ -422,7 +435,7 @@
     padding-bottom: 0px;
   }
   .details-cnt div h1{
-    font-size: 40px;
+    font-size: 35px;
   }
   .details-cnt div h2{
     font-size: 20px;
@@ -436,6 +449,7 @@
   }
   /* second sec  */
   .second-sec{
+    padding-top: 50px;
     max-width: 520px;
     width: 88%;
   }
@@ -444,11 +458,15 @@
     max-width: 520px;
     width: 98%;
   }
+  .third-sec{
+    padding-bottom: 50px;
+    padding-top: 0px;
+  }
   .third-cnt-child div h2{
     font-size: 30px;
   }
   .third-cnt-child div h2 span{
-    font-size: 30px;
+    font-size: 28px;
   }
   .third-cnt-child div p{
     font-size: 7px;
@@ -457,26 +475,36 @@
   .fourth-sec div{
     max-width: 768px;
     width: 98%;
-   }
+  }
+  .fourth-sec{
+    padding-bottom: 50px;
+
+  }
    .fourth-sec div div h2{
     font-size: 30px;
    }
    .fourth-sec div div h2 span{
-    font-size: 30px;
+    font-size: 28px;
     }
    .fourth-sec div div p{
     font-size: 7px;
   }
+  .foruth-child .image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* align-items: center; */
 
+  }
    .pic-cnt div{
     background-position: center;
-    padding: 150px 120px 120px 120px ;
+    padding: 130px 100px 100px 100px ;
     background-size: 130%;
    }
    .pic-cnt{
     padding-top: 70px;
     background-position: bottom;
-    background-size: 100%;
+    background-size: 110%;
    }
    .third-sec div{
     gap: 20px;
@@ -490,6 +518,9 @@
     max-width: 360px;
     
   }
+  .fifth-sec{
+    padding-bottom: 0px;
+  } 
   .fifth-sec .border-cnt svg{
   max-width: 360px;
 
@@ -513,6 +544,7 @@
   .sixth-child div a{
     font-size: 14px;
   }
+
   .sixth-child div p{
     font-size: 7px;
     max-width: 400px;
@@ -533,7 +565,7 @@
     justify-content: space-around;
   }
   .sixth-sec{
-    padding: 100px 5px 20px 5px;
+    padding: 50px 5px 20px 5px;
   }
 
 
@@ -545,7 +577,6 @@
     width: 100%;
     background-position: 100% 10%;
     background-size: 90%; 
-    padding-right: 0px;  
   }
   .main-sec{
     max-width: 520px;
@@ -693,7 +724,8 @@
     width: 100%;
     background-position: 100% 0%;
     background-size: 80%; 
-    padding-right: 0px;  
+    padding-right: 0px;
+    padding-bottom: 50px;  
   }
   .main-sec{
     max-width: 768px;
