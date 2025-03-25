@@ -58,7 +58,7 @@ z-index: 9999;
     /* pic container  */
     .pic-cnt div{
       background-position: bottom;
-      padding: 150px 100px 100px 100px !important;
+      padding: 150px 120px 120px 120px !important;
       background-size: 90% !important;
       /* background-color: red; */
      }
