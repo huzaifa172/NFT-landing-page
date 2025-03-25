@@ -58,8 +58,8 @@ z-index: 9999;
     /* pic container  */
     .pic-cnt div{
       background-position: bottom;
-      padding: 180px 150px 150px 150px ;
-      background-size: 120% !important;
+      padding: 200px 100px 100px 100px !important;
+      background-size: 110% !important;
       /* background-color: red; */
      }
      .details-row div{
