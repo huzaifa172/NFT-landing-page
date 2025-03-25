@@ -19,8 +19,8 @@
   /* hero section  */
   .hero-sec{
     width: 100%;
-    background-position: 100% 30%;
-    background-size: 80%; 
+    background-position: 100% 10%;
+    background-size: 90%; 
     padding-right: 0px;
     padding-bottom: 0px;  
   }
@@ -49,82 +49,173 @@
     padding-bottom: 10px;
   }
   .details-cnt{
-    padding: 60px 0px 0px 8px;
-  }
-  /* second sec  */
-  .second-sec{
-    max-width: 420px;
-    width: 88%;
-  }
-.second-sec div div p{
-  font-size: 10px;
-}
-.second-sec {
-  padding-top: 50px;
-}
-  /* third section  */
-  .third-sec div{
-    max-width: 420px;
-    width: 98%;
-  }
-  .third-cnt-child{
-    gap: 10px !important;
-  }
-  .third-cnt-child div h2{
-    font-size: 18px;
-  }
-  .third-cnt-child div h2 span{
-    font-size: 16px;
-  }
-  .third-cnt-child div p{
-    font-size: 5px;
-  }
-  .third-sec{
-    padding-bottom: 40px;
-  }
-  /* fourth section  */
-  .fourth-sec div{
-    max-width: 420px;
-    width: 98%;
-   }
-   .fourth-sec div div h2{
-    font-size: 18px;
-   }
-   .fourth-sec div div h2 span{
-    font-size: 16px;
-    }
-    .fourth-sec{
-      padding-bottom: 0px !important;
-    }
-    .fourth-sec div{
-      gap: 10px;
-    }
-   .fourth-sec div div p{
-    font-size: 5px;
+    padding: 40px 0px 0px 0px;
   }
 
-  .foruth-child div {
-    display: flex;
+    /* pic container  */
+    .pic-cnt div{
+      background-position: bottom;
+      padding: 130px 100px 100px 100px ;
+      background-size: 100%;
+      /* background-color: red; */
+     }
+     .pic-cnt{
+      padding-top: 0px;
+      background-position: bottom;
+      background-size: 130%;
+     }
+     .third-sec div{
+      gap: 20px;
+    }
+    .third-cnt-child .second-pics{
+      align-items: end;
+      justify-content: center;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* second sec  */
+  .second-sec {
+    padding-top: 20px;
+    width: 98%;
   }
-  /* pic container  */
-   .pic-cnt div{
-    background-position: bottom;
-    padding: 130px 80px 80px 80px ;
-    background-size: 100%;
-    /* background-color: red; */
-   }
-   .pic-cnt{
+  .second-sec div{
     padding-top: 0px;
-    background-position: bottom;
-    background-size: 100%;
-   }
-   .third-sec div{
-    gap: 20px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;      
   }
-  .third-cnt-child .second-pics{
-    align-items: end;
-    justify-content: center;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* third section  */
+.third-sec{
+  padding-bottom: 50px;
+
+}
+  .third-sec div{
+    flex-direction: column-reverse;
+    width: 98%;
+    align-items: center;
+  } 
+  .third-cnt-child{
+      flex-direction: column !important;
+ }
+ .third-cnt-child .first-pic{
+  display: flex;
+  margin-bottom: -20px;
+  
+ }
+ .third-cnt-child .second-pics{
+  display: flex;
+  flex-direction: row;
+ }
+ .third-cnt-child .second-pics div{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: baseline;
+  
+ }
+ .third-cnt-child div h2{
+  text-align: center;
+}
+.third-cnt-child div p{
+  text-align: center;
+}
+.btn-third-sec{
+  display: flex;
+  /* background-color: red; */
+  justify-content: flex-start;
+  align-items: center !important;
+  padding-bottom: 20px;
+}
+.btn-third-sec button{
+  width: 30%; 
+  left: 0%; 
+}
+.btn-third-sec img{
+  left: 50%;
+  top: -10%;
+  transform: translate(-50%);
+} 
+
+
+
+
+
+
+
+/* fourth section  */
+.fourth-sec{
+  padding-bottom: 20px;
+}
+.fourth-sec div {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  gap: 30px;
+}
+.foruth-child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foruth-child div h2{
+  text-align: center;
+}
+.foruth-child div p {
+  text-align: center;
+}
+.foruth-child .btn-fourth-sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.foruth-child .btn-fourth-sec button{
+  width: 30%;
+}
+.foruth-child .btn-fourth-sec img{
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.foruth-child .image{
+  background-position: 100% 0%;
+}
+
+
+
+
+
+
+
   /* fifth child   */
   .fifth-sec .border-cnt {
     max-width: 260px;
@@ -267,7 +358,7 @@
     padding-bottom: 10px;
   }
   .details-cnt{
-    padding: 60px 0px 0px 8px;
+    padding: 50px 0px 0px 0px;
   }
   /* second sec  */
   .second-sec{
@@ -329,7 +420,7 @@
     /* background-color: red; */
    }
    .pic-cnt{
-    padding-top: 20px;
+    padding-top: 0px;
     background-position: bottom;
     background-size: 110%;
    }
@@ -445,7 +536,7 @@
     padding-bottom: 10px;
   }
   .details-cnt{
-    padding: 90px 0px 0px 8px;
+    padding: 50px 0px 0px 0px;
   }
   /* second sec  */
   .second-sec{
@@ -498,13 +589,13 @@
   }
    .pic-cnt div{
     background-position: center;
-    padding: 130px 100px 100px 100px ;
-    background-size: 130%;
+    padding: 130px 120px 120px 120px ;
+    background-size: 120%;
    }
    .pic-cnt{
     padding-top: 70px;
     background-position: bottom;
-    background-size: 110%;
+    background-size: 130%;
    }
    .third-sec div{
     gap: 20px;
@@ -572,19 +663,21 @@
 }
 
 /* 520px  resposiveness*/
-@media (min-width : 521px) and (max-width : 520px) {
+@media (min-width : 521px) and (max-width : 600px) {
   .hero-sec{
     width: 100%;
     background-position: 100% 10%;
     background-size: 90%; 
+    padding-right: 0px;
+    padding-bottom: 50px;
   }
   .main-sec{
-    max-width: 520px;
+    max-width: 600px;
     width: 98%;
     z-index: 0;
   }
   .details-row{
-    max-width: 520px;
+    max-width: 600px;
     }
   .head-cnt{
     z-index: 9999;
@@ -603,16 +696,16 @@
     padding-bottom: 10px;
   }
   .details-cnt{
-    padding: 90px 0px 0px 8px;
+    padding: 50px 0px 0px 0px;
   }
   /* second sec  */
   .third-sec div{
-    max-width: 520px;
+    max-width: 600px;
     width: 98%;
   }
 
   .fourth-sec div{
-    max-width: 768px;
+    max-width: 600px;
     width: 98%;
    }
 
@@ -622,7 +715,7 @@
     background-size: 130%;
    }
    .pic-cnt{
-    padding-top: 90px;
+    padding-top: 50px;
     background-position: bottom;
     background-size: 100%;
    }
@@ -637,11 +730,11 @@
     font-size: 14px;
   }
   .sixth-child{
-    max-width: 520px;
+    max-width: 600px;
     width: 100%;
   }
   .sixth-sec{
-    max-width: 520px;
+    max-width: 600px;
     width: 98%;
   }
   .sixth-sec .menu-child{
@@ -657,7 +750,7 @@
 
 /* 700px responsiveness  */
 @media (min-width : 601px) and (max-width : 700px) {
-    
+
   .hero-sec{
     width: 100%;
     background-position: 100% 10%;
@@ -689,7 +782,7 @@
     padding-bottom: 10px;
   }
   .details-cnt{
-    padding: 70px 0px 0px 8px;
+    padding: 50px 0px 0px 0px;
   }
   /* second sec  */
   .third-sec div{
@@ -706,7 +799,7 @@
     padding: 200px 160px 160px 160px ;
    }
    .pic-cnt{
-    padding-top: 90px;
+    padding-top: 70px;
    }
    .third-sec div{
     gap: 20px;
@@ -763,5 +856,26 @@
     max-width: 768px;
     width: 98%;
    }
+
+}
+
+
+/* hamburger media query  */
+@media (max-width: 767px){
+  .head-cnt{
+    display: none;
+    
+  }
+  .hamburger{
+    position: absolute;
+    display: flex !important;
+    padding: 5px;
+    top: 6px;
+    left: 5px;
+    z-index: 99999999;
+  }
+  .details-cnt{
+    padding-left: 0px !important;
+  }
 
 }

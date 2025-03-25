@@ -19,6 +19,46 @@
   top: 0;
   background-position: 48.5% 0%;
 }
+.hamburger{
+  display: none !important;
+}
+
+.navigation{
+  width: 100%;
+  height: 100%;
+  align-self: flex-start;
+  position: absolute;
+  z-index: 11111;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #0CFAF5 0.1%, #8766E1 22.70%, rgba(220, 0, 211, 0.73) 72.69%);
+  padding: 30px;
+  border-radius: 20px;
+  transform-origin : 50px ; 
+  transition : all 0.08s linear ; 
+
+
+ 
+}
+.navigation ul{
+  align-items: center;
+}
+.navigation ul li{
+  padding: 10px;
+  border: solid 1px;
+  margin-top: 5px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+.navigation .menu-close{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .head-cnt div div a{
   color: #FFF;

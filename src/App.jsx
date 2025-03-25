@@ -1,31 +1,59 @@
 import './App.css'
 import { useState } from "react";
 import './Responsive.css'
-
+import Humburger  from './components/Humburger';
 
 
 
 // pages starts from here
 function App() {
-  const [isChatVisible, setIsChatVisible] = useState(false);
-  const components = {
-    icon_close: (<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>),
-    icon_message: (<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg>),
-  };
+  const [hamburgerOpen, setHumbergerOpen] = useState(false);
+  
+  const toggleHambuger = ()=>{
+    setHumbergerOpen(!hamburgerOpen)
+  
+  }
+  const toggleHambugerClose = ()=>{
+    setHumbergerOpen(false)
+  }
   return (
+
       <div className="main-cnt h-screen w-screen flex bg-[#0F0E0E] flex-col items-center justify-start">  
+          
+          <div className='hamburger' onClick={toggleHambuger}>
+              <Humburger />
+          </div>  
+          <div className='navigation relative' >
+          <div className='menu-close' onClick={toggleHambugerClose}>            <Humburger /></div>
+          
+              <ul>
+                <li>HOME</li>
+                <li>PRODUCTS</li>
+                <li>SERVICES</li>
+                <li>CONTACTS</li>
+              </ul>
+          </div>
+
+      <style jsx>{`
+        .navigation{
+          height: ${hamburgerOpen? '100%' :'0px'};
+          visibility :  ${hamburgerOpen? 'visible' :'hidden'};   
+        }
+        `}</style>
 
    {/* hero section  */}
-
-
      <div className="hero-sec w-full flex flex-col items-center">
        
-          {/* hero main section   */}
-       <div className="main-sec flex flex-col items-center max-w-[770px] ">
-         
-{/* header  */}
-<div className="head-cnt w-full ">
-            <div className="li-cnt w-full flex flex-row justify-around items-center">
+    {/* hero main section   */}
+    <div className="main-sec flex flex-col items-center max-w-[770px] ">
+            
+          {/* header  */}
+          <div className="head-cnt w-full ">
+
+
+
+            <div className="li-cnt w-full
+             flex flex-row justify-around items-center">
               <div className='list'><a href="">HOME</a></div>
               <div className='list'><a href="">PRODUCTS</a></div>
               <div className='list '><img src="/top-image.png" alt="glass" /></div>
@@ -33,8 +61,10 @@ function App() {
               <div className='list'><a href="">CONTACTS</a></div>
             </div>
           </div>
-        
+
+
          <div className="details-row w-full flex flex-row justify-center ">
+         
               <div className="details-cnt w-[50%] pt-[70px] flex flex-col gap-[5px]">
                 <div className="heading-cnt"><h1>NEXT GEN</h1></div>
                 <div className="tagline-cnt"><h2>VARTUAL REALITY</h2></div>
@@ -54,23 +84,25 @@ function App() {
          </div>
 
        </div>
-       
+      
+    
       {/* hero second section  */}
        <div className="second-sec">
-            <div className='inline-flex justify-center items-center gap-[34px]'>
-              <div className="first">
-                <img src="/Rectangle1.png" alt="" />
-                <p>Gear VR Headset</p>
-              </div>
-              <div className="second">
-                <img src="/Rectangle2.png" alt="" />
-                <p>Smart VR Headset</p>
-              </div>
-              <div className="third">
-                <img src="/Rectangle3.png" alt="" />
-                <p>Play station VR</p>
-              </div>
-            </div>
+        <div className='inline-flex justify-center items-center gap-[34px]'>
+          <div className="first">
+            <img src="/Rectangle1.png" alt="" />
+            <p>Gear VR Headset</p>
+          </div>
+          <div className="second">
+            <img src="/Rectangle2.png" alt="" />
+            <p>Smart VR Headset</p>
+          </div>
+          <div className="third">
+            <img src="/Rectangle3.png" alt="" />
+            <p>Play station VR</p>
+          </div>
+        </div>
+    
        </div>
      
      
@@ -80,11 +112,10 @@ function App() {
       {/* hero section ends here  */}
 
     {/* third section  */}
-
     <div className='third-sec bg-[#0F0E0E] w-full flex justify-center items-center pb-[100px] pt-[50px]'>
       <div className='flex flex-row justify-between gap-[80px] max-w-[770px]'>
-          <div className="third-cnt-child flex justify-start  items-center w-[50%]">
-            <div>
+          <div className="third-cnt-child child1 flex justify-start  items-center w-[50%]">
+            <div className='first-pic'>
               <img src="/third-sec-1.png" alt="first image" />
             </div>
             <div className='second-pics flex flex-col items-end'>
@@ -125,8 +156,7 @@ function App() {
     </div>
     {/* fourth section ends here  */}
 
-
-          {/* fifth secion  */}
+         {/* fifth secion  */}
           <div className='fifth-sec bg-[#0F0E0E] w-full flex justify-center'>
   
               <div className='border-cnt w-full p-10 max-w-[480px] '>
