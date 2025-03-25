@@ -3,33 +3,6 @@ import { useState } from "react";
 import './Responsive.css'
 
 
-// firsbase starts here 
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAcZAD-1w828qSpZBvPAEnyQgsWZI1GM68",
-  authDomain: "fir-e7af3.firebaseapp.com",
-  projectId: "fir-e7af3",
-  storageBucket: "fir-e7af3.firebasestorage.app",
-  messagingSenderId: "687904481697",
-  appId: "1:687904481697:web:d32c4bc7bd96c8da58abe0",
-  measurementId: "G-XFW3Y5VN3V"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-// firsbase ends here 
-
-
-
 
 
 // pages starts from here
