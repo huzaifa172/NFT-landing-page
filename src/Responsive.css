@@ -41,7 +41,7 @@ z-index: 9999;
 
     width: 100%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }    
   .details-cnt div h1{
     font-size: 40px;
@@ -72,9 +72,9 @@ z-index: 9999;
       padding-top: 15px;
      }
      .pic-cnt {
-      padding-top: 0px;
+      padding-top: 50px;
       background-position: bottom;
-      background-size: 80% !important;
+      background-size: 90% !important;
      }
 
 
